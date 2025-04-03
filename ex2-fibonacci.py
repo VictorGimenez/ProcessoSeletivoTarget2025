@@ -1,12 +1,11 @@
-def fib(n,num):    # write Fibonacci series less than n
-    """Print a Fibonacci series less than n."""
+def fib(n,num):
     vetor_fibo=[]
     a, b = 0, 1
     while a < n:
         a, b = b, a+b
         vetor_fibo.append(a)
         if(num == a):
-            print("Esse número está na sequẽncia")
+            print(f"O número {num} está na sequẽncia de fibonacci")
     return vetor_fibo
 
 num_input = int(input("Informe um número que deseja saber se está ou não na sequência de fibonacci\n=>"))
