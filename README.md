@@ -1,6 +1,6 @@
 # ProcessoSeletivoTarget2025
 
-Técnica:
+### Enunciado:
 
 1) Observe o trecho de código abaixo: int INDICE = 13, SOMA = 0, K = 0;
 Enquanto K < INDICE faça { K = K + 1; SOMA = SOMA + K; }
@@ -35,4 +35,26 @@ IMPORTANTE:
 a) Essa string pode ser informada através de qualquer entrada de sua preferência ou pode ser previamente definida no código;
 b) Evite usar funções prontas, como, por exemplo, reverse;
 
-NÃO SE ESQUEÇA DE INSERIR O LINK DO SEU REPOSITÓRIO NO GITHUB COM O CÓDIGO FONTE QUE VOCÊ DESENVOLVEU
+### Execução
+
+Para executar todos os scripts de uma só vez. Obs: Ambos scripts de execução (.sh e .bat) encontram-se no mesmo diretório dos scripts .py
+
+#### Linux:
+
+Abra o terminal do Linux e digite:
+
+<div class="box">
+    <pre>
+         ./executar_exercicios.sh
+    </pre>
+</div>
+
+#### Windows:
+
+Abra o prompt de comando ou powershell do Windows e digite:
+
+<div class="box">
+    <pre>
+         executar_exercicios.bat
+    </pre>
+</div>

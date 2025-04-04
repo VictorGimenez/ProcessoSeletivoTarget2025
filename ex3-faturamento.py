@@ -43,6 +43,7 @@ with open("dados.json") as json_data:
     faturamentos = json.load(json_data)
     vt, dv, max_dia, min_dia, max_valor, min_valor = registrar_menor_e_maior_faturamentos(faturamentos)
     media, dias_acima = registrar_dias_superiores_a_media_mensal(faturamentos, vt, dv)
+    print("\nExercício 3")
     print(f"maior_dia:{max_dia}\nmaior_valor:{max_valor:.2f}")
     print(f"menor_dia:{min_dia}\nmenor_valor:{min_valor:.2f}")
     print(f"media mensal:{media:.2f}\ndias acima da média :{dias_acima}")

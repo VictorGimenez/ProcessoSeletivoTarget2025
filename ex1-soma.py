@@ -7,4 +7,5 @@ def soma(indice):
     return soma
 
 indice=13
-print(soma(indice))
+
+print(f"Exercício 1: {soma(indice)}")
